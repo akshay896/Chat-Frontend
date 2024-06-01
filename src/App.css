@@ -1,0 +1,236 @@
+.login-page {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle at top right, rgb(49, 157, 235) 0%, rgb(49, 157, 235) 13%,rgb(76, 166, 234) 13%, rgb(76, 166, 234) 23%,rgb(103, 176, 232) 23%, rgb(103, 176, 232) 33%,rgb(130, 185, 231) 33%, rgb(130, 185, 231) 46%,rgb(156, 194, 230) 46%, rgb(156, 194, 230) 48%,rgb(183, 203, 229) 48%, rgb(183, 203, 229) 63%,rgb(210, 213, 227) 63%, rgb(210, 213, 227) 83%,rgb(237, 222, 226) 83%, rgb(237, 222, 226) 100%);
+  /* background-image: radial-gradient(
+    circle at top right,
+    rgb(36, 9, 119) 0%,
+    rgb(36, 9, 119) 48%,
+    rgb(72, 7, 149) 48%,
+    rgb(72, 7, 149) 53%,
+    rgb(109, 5, 178) 53%,
+    rgb(109, 5, 178) 56%,
+    rgb(145, 2, 208) 56%,
+    rgb(145, 2, 208) 69%,
+    rgb(181, 0, 237) 69%,
+    rgb(181, 0, 237) 100%
+  ); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  width: 50%;
+  height: 60vh;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: url('https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg');
+}
+.login-container input {
+  
+  
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-container {
+  width: 60%;
+  margin: 20px auto;
+  
+}
+.chat-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* background-image: radial-gradient(
+      circle at 47% 14%,
+      rgba(205, 205, 205, 0.04) 0%,
+      rgba(205, 205, 205, 0.04) 43%,
+      transparent 43%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 35% 12%,
+      rgba(215, 215, 215, 0.04) 0%,
+      rgba(215, 215, 215, 0.04) 4%,
+      transparent 4%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 1% 35%,
+      rgba(24, 24, 24, 0.04) 0%,
+      rgba(24, 24, 24, 0.04) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 21% 1%,
+      rgba(0, 0, 0, 0.04) 0%,
+      rgba(0, 0, 0, 0.04) 26%,
+      transparent 26%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 23% 82%,
+      rgba(249, 249, 249, 0.04) 0%,
+      rgba(249, 249, 249, 0.04) 60%,
+      transparent 60%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 11% 54%,
+      rgba(251, 251, 251, 0.04) 0%,
+      rgba(251, 251, 251, 0.04) 23%,
+      transparent 23%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 69% 68%,
+      rgba(234, 234, 234, 0.04) 0%,
+      rgba(234, 234, 234, 0.04) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(228, 46, 222), rgb(63, 61, 215)); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle at top right, rgb(49, 157, 235) 0%, rgb(49, 157, 235) 13%,rgb(76, 166, 234) 13%, rgb(76, 166, 234) 23%,rgb(103, 176, 232) 23%, rgb(103, 176, 232) 33%,rgb(130, 185, 231) 33%, rgb(130, 185, 231) 46%,rgb(156, 194, 230) 46%, rgb(156, 194, 230) 48%,rgb(183, 203, 229) 48%, rgb(183, 203, 229) 63%,rgb(210, 213, 227) 63%, rgb(210, 213, 227) 83%,rgb(237, 222, 226) 83%, rgb(237, 222, 226) 100%);
+  
+}
+.chat-box {
+  width: 500px;
+  height: 90vh;
+  border: 1px solid;
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  border-radius: 20px;
+  /* background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  border: none;
+  background: url('https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg');
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.chat-top {
+  width: 100%;
+  height: 80px;
+  border-radius: 35px 35px 0px 0px;
+}
+.online {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+  border: none;
+  
+  
+}
+.chat-head-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.chat-list {
+  height: 65vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  /* width: 97%; */
+  
+  background: url('https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg');
+}
+.chatsender {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.chatsender p {
+  background-color: rgb(24, 198, 59);
+  color: white;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  border-radius: 10px 0px 10px 10px;
+}
+.chatreceiver {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.chatreceiver p {
+  background-color: rgb(59, 165, 214);
+  padding: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0px 10px 10px 10px;
+}
+.inputtext-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 18px;
+  border-radius: 0px 0px 20px 20px;
+  background: url('https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg');
+}
+.inputspace {
+  width: 70%;
+  height: 8vh;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.send-btn {
+  height: 8vh;
+  border: none;
+  width: 20%;
+  border-radius: 10px;
+  background-color: white;
+  transition: ease-in-out 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.send-icon {
+  color: black;
+  font-size: 26px;
+  transition: ease-in-out 0.2s;
+}
+.logout-icon{
+  font-size: 25px;
+  cursor: pointer;
+  color: red;
+}
+.whisper{
+  color: rgb(38, 147, 184);
+}
+.login-btn{
+  border: none;
+  background-color:  rgb(38, 147, 184);
+  width: 16%;
+  height: 7vh;
+  border-radius: 10px;
+  color: white;
+}
